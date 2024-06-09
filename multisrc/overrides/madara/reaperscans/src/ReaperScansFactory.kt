@@ -39,7 +39,7 @@ abstract class ReaperScans(
 }
 
 class ReaperScansTr : ReaperScans(
-    "https://reaperscanstr.com",
+    "https://reaper-scans.com",
     "tr",
     SimpleDateFormat("MMMMM dd, yyyy", Locale("tr")),
 ) {
@@ -49,7 +49,7 @@ class ReaperScansTr : ReaperScans(
 }
 
 class ReaperScansFr : ReaperScans(
-    "https://reaperscans.fr",
+    "https://reaper-scans.com",
     "fr",
     SimpleDateFormat("dd/MM/yyyy", Locale.US),
 ) {
